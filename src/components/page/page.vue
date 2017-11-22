@@ -72,6 +72,7 @@
 			setIndex(index){
 				this.current_index = index;
 				this.refreshPage();
+				this.currentChange(index);
 			}
 		}
 	}
